@@ -29,5 +29,6 @@ $nombre = $_SESSION['nombre'];
         <p>Tu email es: <?php echo $email; ?></p>
         <a href="logout.php">Cerrar sesión</a>
     </div>
+    
 </body>
 </html>
