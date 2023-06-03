@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+  <div class="container">
+    <form action="registro.php" method="post">
+      <h2>Registro de Usuarios</h2>
+      <div class="form-group">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label>Apellidos:</label>
+        <input type="text" name="apellidos" required>
+      </div>
+      <div class="form-group">
+        <label>Email:</label>
+        <input type="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label>Contraseña:</label>
+        <input type="password" name="password" required>
+      </div>
+      <button type="submit" name="register">Registrarse</button>
+    </form>
+    <p>¿tienes ya una cuenta? <a href="login_usuario.html">Iniciar Sesion</a></p>
+  </div>
+</body>
+</html>
